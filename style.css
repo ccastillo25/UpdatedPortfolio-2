@@ -1,0 +1,82 @@
+body {
+    background-image: url("https://images.pexels.com/photos/189349/pexels-photo-189349.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-size: cover;
+    height: auto;
+    font-family: 'caveat';
+    color: #ffffff;
+}
+nav {
+    background-color: #0066cc;
+    text-align: right;
+    font-family: 'Permanent Marker', cursive;
+}
+.banner {
+    top: 0px;
+    left: 0px;
+    background-color: #222831;
+    color: #ffffff;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+    font-family: 'caveat';
+}
+.jumbotron {
+    opacity: .9;
+    text-align: center;
+    height: auto;
+    background-size: cover;
+    background-position: 50%;
+    padding: 1.5rem;
+    color: #ffffff;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 15px;
+}
+.display {
+    font-family: 'Permanent Marker', cursive;
+    font-weight: 800;
+    letter-spacing: 01.5rem;
+    text-align: center;
+    background-size: cover;
+}
+h1 {
+    color: #ffffff;
+    text-align: center;
+    background-color: #222831;
+    text-decoration: text-underline-offset;
+    font-family: 'caveat';
+}
+.p {
+    color: #ffffff;
+    font-family: 'Permanet Marker', cursive;
+}
+.card {
+    margin: 0 auto;
+    float: none; 
+    margin-bottom: 10px;
+    font-family: 'caveat';
+}
+h2 {
+    color:#222831;
+    font-size: xx-large;
+    text-decoration: underline;
+    font-family: 'caveat';
+}
+h3 {
+    color:#ffffff;
+    font-size: xx-large;
+    text-decoration: underline;
+    font-family: 'caveat';
+}
+.footer {
+    background-color: #222831;
+    color: #ffffff;
+    text-align: center;
+    font-family: 'caveat';
+    padding: 15px;
+    position: relative;
+}
+@media screen and (min-width: 992px) {
+    #leftsidebar {width: 100%; float: left;}
+    #main {margin-left: 216px;}
+    #background {color: #222831}
+  }
