@@ -1,82 +1,81 @@
 body {
-    background-image: url("https://images.pexels.com/photos/189349/pexels-photo-189349.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
-    background-size: cover;
-    height: auto;
-    font-family: 'caveat';
-    color: #ffffff;
-}
-nav {
-    background-color: #0066cc;
-    text-align: right;
-    font-family: 'Permanent Marker', cursive;
-}
-.banner {
-    top: 0px;
-    left: 0px;
-    background-color: #222831;
-    color: #ffffff;
-    margin: auto;
-    text-align: center;
-    padding: 10px;
-    font-family: 'caveat';
-}
-.jumbotron {
-    opacity: .9;
-    text-align: center;
-    height: auto;
-    background-size: cover;
-    background-position: 50%;
-    padding: 1.5rem;
-    color: #ffffff;
-    font-family: 'Permanent Marker', cursive;
-    font-size: 15px;
-}
-.display {
-    font-family: 'Permanent Marker', cursive;
-    font-weight: 800;
-    letter-spacing: 01.5rem;
-    text-align: center;
-    background-size: cover;
-}
-h1 {
-    color: #ffffff;
-    text-align: center;
-    background-color: #222831;
-    text-decoration: text-underline-offset;
-    font-family: 'caveat';
-}
-.p {
-    color: #ffffff;
-    font-family: 'Permanet Marker', cursive;
-}
-.card {
-    margin: 0 auto;
-    float: none; 
-    margin-bottom: 10px;
-    font-family: 'caveat';
+  font: 400 15px;
+  line-height: 1.8;
+  color: #29435c;
 }
 h2 {
-    color:#222831;
-    font-size: xx-large;
-    text-decoration: underline;
-    font-family: 'caveat';
+  font-size: 24px;
+  font-family: Cinzel decorative;
+  text-transform: uppercase;
+  color: #29435c;
+  font-weight: 600;
+  margin-bottom: 30px;
 }
 h3 {
-    color:#ffffff;
-    font-size: xx-large;
-    text-decoration: underline;
-    font-family: 'caveat';
+  font-family: Cinzel decorative;
+  font-size: 35px;
 }
-.footer {
-    background-color: #222831;
-    color: #ffffff;
+h4 {
+  font-size: 19px;
+  font-family: Cinzel;
+  line-height: 1.375em;
+  color: #000000;
+  font-weight: 400;
+  margin-bottom: 30px;
+}  
+p {
+    font-family: Cinzel;
+    font-size: 15px;
+}
+.jumbotron {
+  background-color: #152a38;
+  color: #fff;
+  padding: 40px 25px;
+  font-family: Cinzel;
+}
+.container-fluid {
+  padding: 60px 50px;
+}
+.bg-grey {
+  background-color: #d1d4c9;
+}
+.navbar {
+  margin-bottom: 0;
+  background-color: #556e53;
+  border: 0;
+  font-size: 20px;
+  letter-spacing: 4px;
+  border-radius: 0;
+  font-family: Cinzel decorative;
+}
+.navbar li a, .navbar .navbar-brand {
+  color: #fff !important;
+}
+.navbar-nav li a:hover, .navbar-nav li.active a {
+  color: #29435c !important;
+  background-color: #fff !important;
+}
+.navbar-default .navbar-toggle {
+  border-color: transparent;
+  color: #fff !important;
+}
+footer .glyphicon {
+  font-size: 40px;
+  margin-bottom: 20px;
+  color: #29435c;
+}
+@media screen and (max-width: 768px) {
+  .col-sm-4 {
     text-align: center;
-    font-family: 'caveat';
-    padding: 15px;
-    position: relative;
-}
-@media screen and (min-width: 992px) {
-    #leftsidebar {width: 100%; float: left;}
-    #main {margin-left: 216px;}
-    #background {color: #222831}
+    margin: 25px 0;
   }
+  .btn-lg {
+    width: 100%;
+    margin-bottom: 35px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .logo {
+    font-size: 150px;
+  }
+}
